@@ -1,1 +1,45 @@
+LAB_1
+
+Objective: 
+This lab exercise will help you practice essential MATLAB concepts, including creating and manipulating numeric arrays, 
+performing matrix concatenation, and using the repmat function.
+%================================================================
+•	Part 1: Matrix Sum
+1.	Create a 3x3 matrix named matrixA with the following values:
+                  1 2 3
+                  4 5 6
+                  7 8 9
+2.	Create a 3x3 matrix named matrixB with the following values:
+                  10 11 12
+                  13 14 15
+                  16 17 18
+3.	Calculate the sum of "matrixA" and "matrixB" and store it in a variable called matrixSum.
+4.	Display the contents of "matrixSum".
+
+%================================================================
+•	Part 2: Matrix Concatenation
+
+1.	Create a row vector named "rowVector" with values from 1 to 5.
+2.	Create a column vector named "columnVector" with values from 6 to 10.
+3.	Concatenate rowVector and columnVector horizontally.
+4.	store the result in a variable called "horizontalConcat".
+5.	Display the contents of horizontalConcat.
+%================================================================
+•	Part 3: Using repmat Function
+
+1.	Create a 2x2 matrix named "originalMatrix" with any values you like.
+2.	Use the repmat function to replicate originalMatrix into a 4x4 pattern and
+3.	 store it in a variable called "repeatedMatrix".
+4.	Display the contents of repeatedMatrix
+.
+
+%================================================================
+•	Part 4: Challenge := identity matrix
+
+1.	Create a 3x3 identity matrix (a matrix with diagonal elements as 1 and others as 0) and store it in a variable called identityMatrix.
+2.	Perform matrix multiplication between identityMatrix and matrixA. 
+3.	Store the result in a variable called matrixProduct.
+4.	Display the contents of matrixProduct.
+
+
 
